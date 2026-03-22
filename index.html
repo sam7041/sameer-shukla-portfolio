@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sameer Shukla — GSoC Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Rajdhani:wght@300;400;500;600;700&family=Orbitron:wght@400;600;700;900&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+<a href="#hero" class="skip-link">Skip to main content</a>
+
+<div class="cursor" id="cursor"></div>
+<div class="cursor-ring" id="cursorRing"></div>
+
+<!-- ── NAV ── -->
+<nav>
+  <a href="#hero" class="nav-logo">SS<span style="color:#fff">.</span>DEV</a>
+  <ul class="nav-links">
+    <li><a href="#about">ABOUT</a></li>
+    <li><a href="#projects">PROJECTS</a></li>
+    <li><a href="#experience">EXPERIENCE</a></li>
+    <li><a href="#certifications">CERTS</a></li>
+    <li><a href="#contact">CONTACT</a></li>
+  </ul>
+  <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+    <span></span><span></span><span></span>
+  </button>
+</nav>
+
+<!-- Mobile Drawer -->
+<ul class="nav-drawer" id="navDrawer">
+  <li><a href="#about"          onclick="closeDrawer()">ABOUT</a></li>
+  <li><a href="#projects"       onclick="closeDrawer()">PROJECTS</a></li>
+  <li><a href="#experience"     onclick="closeDrawer()">EXPERIENCE</a></li>
+  <li><a href="#certifications" onclick="closeDrawer()">CERTIFICATIONS</a></li>
+  <li><a href="#contact"        onclick="closeDrawer()">CONTACT</a></li>
+</ul>
+
+<!-- ── HERO ── -->
+<section id="hero">
+  <div class="hero-glow"></div>
+  <div class="hero-content">
+    <h1 class="hero-name">
+      <span class="glitch" data-text="SAMEER SHUKLA">SAMEER SHUKLA</span>
+    </h1>
+    <div class="hero-role">DATA SCIENTIST &nbsp;|&nbsp; AI ENTHUSIAST &nbsp;|&nbsp; DATA ANALYST</div>
+    <p class="hero-tagline">
+      Aspiring Data Scientist &amp; Open-Source Contributor building
+      <strong style="color:var(--neon-cyan)">practical AI and automation tools</strong> using Python.
+    </p>
+    <div class="hero-ctas">
+      <a href="#projects" class="btn-primary">VIEW PROJECTS</a>
+      <a href="https://github.com/sam7041" target="_blank" rel="noopener" class="btn-secondary">GITHUB ↗</a>
+    </div>
+    <div class="hero-stats">
+      <div class="stat"><span class="stat-num">5+</span><span class="stat-label">PROJECTS</span></div>
+      <div class="stat"><span class="stat-num">2+</span><span class="stat-label">INTERNSHIPS</span></div>
+      <div class="stat"><span class="stat-num">5+</span><span class="stat-label">CERTIFICATIONS</span></div>
+      <div class="stat"><span class="stat-num">∞</span><span class="stat-label">CURIOSITY</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- ── ABOUT ── -->
+<section id="about">
+  <div class="about-inner">
+    <div class="section-header reveal">
+      <div class="section-label">// ABOUT.EXE</div>
+      <h2 class="section-title">WHO AM I</h2>
+      <div class="section-line"></div>
+    </div>
+    <div class="about-grid reveal">
+      <div class="about-text">
+        <p>I'm <strong>Sameer Shukla</strong>, a BS Life Science graduate from the <strong>University of Delhi</strong> with a Computer Science minor, transitioning fully into the world of Data Science, Machine Learning, and AI.</p>
+        <p>My journey started with science and curiosity — and led me to <strong>Python, Power BI, machine learning, and AI agents</strong>. I love building tools that solve real problems, not just code for the sake of it.</p>
+        <p>Outside of work, I explore new tech, experiment with automation ideas, and contribute to the global developer community. I believe the best software is <strong>practical, open, and shared</strong>.</p>
+        <div class="gsoc-box">
+          <p>I want to participate in GSoC because it gives me the chance to collaborate with experienced developers, contribute to software used globally, and grow into an active open-source contributor. I aim to bring my data and AI skills to projects that matter.</p>
+        </div>
+      </div>
+      <div class="skills-panel">
+        <div class="skills-category">
+          <div class="skills-cat-label">// LANGUAGES &amp; DATA</div>
+          <div class="skill-tags">
+            <span class="skill-tag">Python</span><span class="skill-tag">SQL</span>
+            <span class="skill-tag">Statistics</span><span class="skill-tag">NumPy</span><span class="skill-tag">Pandas</span>
+          </div>
+        </div>
+        <div class="skills-category">
+          <div class="skills-cat-label">// ML &amp; AI</div>
+          <div class="skill-tags">
+            <span class="skill-tag">Machine Learning</span><span class="skill-tag">AI Agents</span>
+            <span class="skill-tag">Predictive Modeling</span><span class="skill-tag">OpenCV</span><span class="skill-tag">face_recognition</span>
+          </div>
+        </div>
+        <div class="skills-category">
+          <div class="skills-cat-label">// TOOLS &amp; INFRA</div>
+          <div class="skill-tags">
+            <span class="skill-tag">Power BI</span><span class="skill-tag">Docker</span>
+            <span class="skill-tag">Git / GitHub</span><span class="skill-tag">pytest</span>
+            <span class="skill-tag">React</span><span class="skill-tag">Node.js</span>
+          </div>
+        </div>
+        <div class="skills-category">
+          <div class="skills-cat-label">// SOFT SKILLS</div>
+          <div class="skill-tags">
+            <span class="skill-tag">Analytical Thinking</span><span class="skill-tag">Research</span>
+            <span class="skill-tag">Prompt Engineering</span><span class="skill-tag">Automation</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── PROJECTS ── -->
+<section id="projects">
+  <div class="projects-container">
+    <div class="section-header reveal">
+      <div class="section-label">// PROJECTS.LIST</div>
+      <h2 class="section-title">WHAT I'VE BUILT</h2>
+      <div class="section-line"></div>
+    </div>
+    <div class="projects-grid">
+
+      <div class="project-card cyan reveal">
+        <div class="project-num">01 /</div>
+        <div class="project-title">AI AGENTS &amp; AUTOMATION</div>
+        <div class="project-subtitle">Workflow Automation · Intelligent Tools</div>
+        <p class="project-desc">Exploring AI-powered automation agents for workflow automation, intelligent responses, and data-driven decision support. Integrating Python tools with modern AI frameworks and APIs to build practical productivity-enhancing applications.</p>
+        <div class="project-tech">
+          <span class="tech-pill">Python</span><span class="tech-pill">AI Frameworks</span>
+          <span class="tech-pill">APIs</span><span class="tech-pill">Automation</span><span class="tech-pill">Prompt Engineering</span>
+        </div>
+        <a href="https://github.com/sam7041/Inventory-Management-automation" target="_blank" rel="noopener" class="project-link">VIEW ON GITHUB →</a>
+      </div>
+
+      <div class="project-card green reveal">
+        <div class="project-num">02 /</div>
+        <div class="project-title">ROBOSPEAKER</div>
+        <div class="project-subtitle">Smart Text-to-Speech Application</div>
+        <p class="project-desc">A cross-platform Python TTS app using pyttsx3 with automatic fallback to native system commands (Windows PowerShell / macOS say). Supports interactive CLI and one-shot argument mode with a full pytest test suite.</p>
+        <div class="project-tech">
+          <span class="tech-pill">Python</span><span class="tech-pill">pyttsx3</span>
+          <span class="tech-pill">CLI</span><span class="tech-pill">pytest</span><span class="tech-pill">Cross-platform</span>
+        </div>
+        <a href="https://github.com/sam7041/robo_speaker_project" target="_blank" rel="noopener" class="project-link">VIEW ON GITHUB →</a>
+      </div>
+
+      <div class="project-card purple reveal">
+        <div class="project-num">03 /</div>
+        <div class="project-title">FACE ATTENDANCE SYSTEM</div>
+        <div class="project-subtitle">Computer Vision · Real-time Recognition</div>
+        <p class="project-desc">Automates attendance tracking via real-time webcam facial recognition. Matches faces against stored encodings, logs name + timestamp to CSV with duplicate-prevention. Demonstrates ML-based encoding and real-time image processing.</p>
+        <div class="project-tech">
+          <span class="tech-pill">Python</span><span class="tech-pill">OpenCV</span>
+          <span class="tech-pill">face_recognition</span><span class="tech-pill">NumPy</span><span class="tech-pill">CSV</span>
+        </div>
+        <a href="https://github.com/sam7041/face-attendance-system" target="_blank" rel="noopener" class="project-link">VIEW ON GITHUB →</a>
+      </div>
+
+      <div class="project-card cyan reveal">
+        <div class="project-num">04 /</div>
+        <div class="project-title">NETFLIX DATASET ANALYSIS</div>
+        <div class="project-subtitle">Data Analysis · Visualization · EDA</div>
+        <p class="project-desc">Deep exploratory data analysis of the Netflix content library. Uncovers trends across genres, countries, release years, and content types. Combines statistical analysis with rich visualizations to drive actionable insights.</p>
+        <div class="project-tech">
+          <span class="tech-pill">Python</span><span class="tech-pill">Pandas</span>
+          <span class="tech-pill">Matplotlib</span><span class="tech-pill">Seaborn</span><span class="tech-pill">EDA</span>
+        </div>
+        <a href="https://github.com/sam7041/Data-Analysis-Projects" target="_blank" rel="noopener" class="project-link">VIEW ON GITHUB →</a>
+      </div>
+
+      <div class="project-card green reveal">
+        <div class="project-num">05 /</div>
+        <div class="project-title">US STORE SALES FORECAST</div>
+        <div class="project-subtitle">Predictive Modeling · Time Series</div>
+        <p class="project-desc">Sales forecasting model for US retail stores using time-series analysis and predictive modeling. Identifies seasonal trends and demand patterns to help businesses optimize inventory and strategy decisions.</p>
+        <div class="project-tech">
+          <span class="tech-pill">Python</span><span class="tech-pill">Scikit-learn</span>
+          <span class="tech-pill">Time Series</span><span class="tech-pill">Forecasting</span><span class="tech-pill">Pandas</span>
+        </div>
+        <a href="https://github.com/sam7041/Data-Analysis-Projects" target="_blank" rel="noopener" class="project-link">VIEW ON GITHUB →</a>
+      </div>
+
+      <div class="project-card orange reveal">
+        <div class="project-num">06 /</div>
+        <div class="project-title">TASK MANAGER APP <span class="wip-badge">IN DEV</span></div>
+        <div class="project-subtitle">Full-Stack · Productivity Tool</div>
+        <p class="project-desc">A productivity app that schedules and tracks tasks with completion status. Explores enforcing focus by restricting device usage when tasks aren't completed on time — combining productivity management with behavioral accountability.</p>
+        <div class="project-tech">
+          <span class="tech-pill">React</span><span class="tech-pill">Node.js</span>
+          <span class="tech-pill">Database</span><span class="tech-pill">Full-stack</span>
+        </div>
+        <a href="https://github.com/sam7041/A-Task-Manager" target="_blank" rel="noopener" class="project-link">FOLLOW PROGRESS →</a>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ── EXPERIENCE ── -->
+<section id="experience">
+  <div class="experience-inner">
+    <div class="section-header reveal">
+      <div class="section-label">// EXPERIENCE.LOG</div>
+      <h2 class="section-title">WORK HISTORY</h2>
+      <div class="section-line"></div>
+    </div>
+    <div class="timeline reveal">
+
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-date">DEC 2025 — MAR 2026</div>
+        <div class="timeline-role">Research &amp; Operations Intern</div>
+        <div class="timeline-org">Satvify</div>
+        <ul class="timeline-bullets">
+          <li>Completed an Operations &amp; Research internship supporting data-driven decision making and workflow optimization.</li>
+          <li>Developed automation workflows integrated with Google Sheets to streamline order tracking and reporting.</li>
+          <li>Conducted operational research to identify process inefficiencies and proposed improvements to enhance productivity.</li>
+          <li>Analyzed operational data and generated structured reports summarizing performance metrics for internal review.</li>
+          <li>Collaborated with cross-functional teams to automate repetitive tasks and improve overall workflow efficiency.</li>
+        </ul>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-dot" style="background:var(--neon-purple);box-shadow:var(--glow-purple)"></div>
+        <div class="timeline-date">OCT 2025 — NOV 2025</div>
+        <div class="timeline-role">Power BI / Healthcare Data Analyst Intern</div>
+        <div class="timeline-org">National Skill Development Corporation (NSDC)</div>
+        <ul class="timeline-bullets">
+          <li>Analyzed and transformed healthcare datasets to create interactive dashboards supporting evidence-based decision-making.</li>
+          <li>Performed data cleaning, preprocessing, and reporting to improve the quality of healthcare analytics.</li>
+          <li>Collaborated with cross-functional teams to identify system inefficiencies and contributed to process improvements.</li>
+          <li>Utilized Power BI to visualize operational insights, enabling better monitoring of healthcare performance metrics.</li>
+          <li>Contributed technical insights that supported a measurable reduction in system failures.</li>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ── CERTIFICATIONS ── -->
+<section id="certifications">
+  <div class="cert-container">
+    <div class="section-header reveal">
+      <div class="section-label">// CREDENTIALS.JSON</div>
+      <h2 class="section-title">CERTIFICATIONS</h2>
+      <div class="section-line"></div>
+    </div>
+    <div class="cert-grid reveal">
+
+      <div class="cert-card" onclick="openCert('cert-ai-agents.pdf','Intro to AI Agents and Agentic AI','ID: CC-EFFED0597A')">
+        <div class="cert-icon">🤖</div>
+        <div>
+          <div class="cert-name">Intro to AI Agents &amp; Agentic AI</div>
+          <div class="cert-org">365 DATA SCIENCE</div>
+          <div class="cert-date">NOV 2025 · ID: CC-EFFED0597A</div>
+        </div>
+      </div>
+
+      <div class="cert-card" onclick="openCert('cert-math-ml.pdf','Math Foundation for ML','ID: CC-96178A8B41')">
+        <div class="cert-icon">🧮</div>
+        <div>
+          <div class="cert-name">Math Foundation for ML</div>
+          <div class="cert-org">365 DATA SCIENCE</div>
+          <div class="cert-date">NOV 2025 · ID: CC-96178A8B41</div>
+        </div>
+      </div>
+
+      <div class="cert-card" onclick="openCert('cert-bcg.pdf','BCG GenAI Job Simulation','ID: Twycj8fLaEddCQwtS')">
+        <div class="cert-icon">🧠</div>
+        <div>
+          <div class="cert-name">GenAI Job Simulation</div>
+          <div class="cert-org">BCG × FORAGE</div>
+          <div class="cert-date">JUN 2025 · ID: Twycj8fLaEddCQwtS</div>
+        </div>
+      </div>
+
+      <div class="cert-card" onclick="openCert('cert-deloitte.pdf','Deloitte Data Analytics Job Simulation','ID: hzMXmmNeyxY7ecmAv')">
+        <div class="cert-icon">📊</div>
+        <div>
+          <div class="cert-name">Data Analytics Job Simulation</div>
+          <div class="cert-org">DELOITTE × FORAGE</div>
+          <div class="cert-date">JUN 2025 · ID: hzMXmmNeyxY7ecmAv</div>
+        </div>
+      </div>
+
+      <div class="cert-card" onclick="openCert('cert-hansraj.pdf','Hansraj Case Challenge 3.0','Finance and Investment Cell, Hansraj College')">
+        <div class="cert-icon">🏆</div>
+        <div>
+          <div class="cert-name">Hansraj Case Challenge 3.0</div>
+          <div class="cert-org">HANSRAJ COLLEGE × HK UNIVERSITY</div>
+          <div class="cert-date">APR 2023 · CERTIFICATE OF EXCELLENCE</div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ── CERT MODAL ── -->
+<div class="cert-modal-overlay" id="certModalOverlay" onclick="closeCertOnOverlay(event)" aria-hidden="true" role="dialog" aria-modal="true">
+  <div class="cert-modal">
+    <div class="cert-modal-header">
+      <div class="cert-modal-title" id="certModalTitle">CERTIFICATE</div>
+      <button class="cert-modal-close" onclick="closeCert()" aria-label="Close certificate">✕</button>
+    </div>
+    <div class="cert-modal-body">
+      <iframe id="certModalFrame" src="" title="Certificate viewer"></iframe>
+    </div>
+    <div class="cert-modal-footer">
+      <div class="cert-modal-id" id="certModalId"></div>
+      <a class="cert-dl-btn" id="certDlBtn" href="#">↓ DOWNLOAD</a>
+    </div>
+  </div>
+</div>
+
+<!-- ── CONTACT ── -->
+<section id="contact">
+  <div class="section-header reveal">
+    <div class="section-label">// CONNECT.SSH</div>
+    <h2 class="section-title">GET IN TOUCH</h2>
+    <div class="section-line"></div>
+  </div>
+  <p class="contact-subtitle reveal">Open to GSoC collaborations, open-source contributions, and data science opportunities.</p>
+  <div class="social-grid reveal">
+
+    <a href="https://github.com/sam7041" target="_blank" rel="noopener" class="social-card">
+      <div class="social-icon">🐙</div>
+      <div class="social-info">
+        <div class="social-platform">GITHUB</div>
+        <div class="social-handle">sam7041</div>
+      </div>
+    </a>
+
+    <a href="https://linkedin.com/in/sameershukla590" target="_blank" rel="noopener" class="social-card">
+      <div class="social-icon">💼</div>
+      <div class="social-info">
+        <div class="social-platform">LINKEDIN</div>
+        <div class="social-handle">sameershukla590</div>
+      </div>
+    </a>
+
+    <a href="mailto:sameershukla590@gmail.com" class="social-card">
+      <div class="social-icon">📧</div>
+      <div class="social-info">
+        <div class="social-platform">EMAIL</div>
+        <div class="social-handle">sameershukla590@gmail.com</div>
+      </div>
+    </a>
+
+    <a href="https://instagram.com/shuklasameer590" target="_blank" rel="noopener" class="social-card">
+      <div class="social-icon">📸</div>
+      <div class="social-info">
+        <div class="social-platform">INSTAGRAM</div>
+        <div class="social-handle">shuklasameer590</div>
+      </div>
+    </a>
+
+  </div>
+</section>
+
+<!-- ── FOOTER ── -->
+<footer>
+  <div class="footer-text">© 2025 SAMEER SHUKLA &nbsp;|&nbsp; DELHI, INDIA</div>
+  <div class="footer-gsoc">GSOC READY <span class="blink">_</span></div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

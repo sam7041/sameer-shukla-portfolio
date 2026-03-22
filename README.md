@@ -1,6 +1,6 @@
 # 🚀 Sameer Shukla — Portfolio
 
-[![Live Demo](https://img.shields.io/badge/Live-Demo-00f5ff?style=for-the-badge&logo=netlify)](https://sameershuklapages.netlify.app)
+[![Live Demo](https://img.shields.io/badge/Live-Demo-00f5ff?style=for-the-badge&logo=cloudflare)](https://sameershukla.pages.dev)
 [![GitHub](https://img.shields.io/badge/GitHub-sam7041-39ff14?style=for-the-badge&logo=github)](https://github.com/sam7041)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-sameershukla590-bf00ff?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/sameershukla590)
 
@@ -12,7 +12,7 @@
 
 ![Portfolio Preview](https://img.shields.io/badge/Status-Live-39ff14?style=flat-square)
 
-**[👉 View Portfolio →](https://sameershuklapages.netlify.app)**
+**[👉 View Portfolio →](https://sameershukla.pages.dev)**
 
 ### Hero Section
 ![Hero](screenshot-hero.png)
@@ -63,7 +63,7 @@ sameer-portfolio/
 | Styling    | CSS3 (variables, grid, flexbox)   |
 | Logic      | Vanilla JavaScript (ES6+)         |
 | Fonts      | Google Fonts (Orbitron, Rajdhani, Share Tech Mono) |
-| Deploy     | Netlify                           |
+| Deploy     | Netlify / GitHub Pages            |
 
 ---
 
@@ -99,17 +99,19 @@ sameer-portfolio/
 
 ## 🌐 Deploy Your Own
 
-### Option 1 — Netlify Drop *(currently live)*
+### Option 1 — Netlify Drop (easiest, 30 seconds)
 1. Go to [netlify.com/drop](https://netlify.com/drop)
 2. Drag the entire project folder
 3. Get a live URL instantly
-- Deployed at **[sameershuklapages.netlify.app](https://sameershuklapages.netlify.app)**
 
 ### Option 2 — GitHub Pages
 1. Push this repo to GitHub
 2. Go to **Settings → Pages**
 3. Set source to **main branch / root**
 4. Your site will be live at `https://username.github.io/repo-name`
+
+### Option 3 — Cloudflare Pages *(currently live)*
+- Deployed at **[sameershukla.pages.dev](https://sameershukla.pages.dev)**
 
 ---
 
